@@ -21,7 +21,9 @@ ifndef::backend[:backend: html5]
 * Entwicklung von Standardlösungen und Individualsoftware
 
 [.column]
-image::kontron.jpeg[]
+++++
+<img src="../images/kontron.jpeg" style="border: 0; box-shadow: none; height: 20%;" alt="kontron logo">
+++++
 
 [transition="zoom-in slide-out"]
 [background-image="background.png",background-opacity="0.7", background-size="cover"]
@@ -37,7 +39,7 @@ image::kontron.jpeg[]
 [background-image="background.png",background-opacity="0.7", background-size="cover"]
 [.columns]
 == Ziele
-* Zuweisen der Vorlagen and das Dokument soll automatisiert werden
+* Zuweisen der Vorlagen an das Dokument soll automatisiert werden
 * Vergleich und eventuelle Findung einer anderen, besseren PDF-Library
 
 [transition="zoom-in slide-out"]
@@ -66,13 +68,30 @@ image::ablauf.png[]
 
 [transition="zoom-in slide-out"]
 [background-image="background.png",background-opacity="0.7", background-size="cover"]
-[.columns]
 
 == Vergleich mit anderen Libraries
 
-=== IronPDF
+[background-image="background.png",background-opacity="0.7", background-size="cover"]
+=== GDPicture
+* kostenpflichtig
+* Verschiedene Möglichkeiten um mit PDFs und Bilddateien zu arbeiten
+* Bietet Möglichkeiten um PDFs und Bilder zu vergleichen
+* Closed Source
 
+[background-image="background.png",background-opacity="0.7", background-size="cover"]
+=== IronPDF
+* kostenpflichtig
+* Verschiedene Möglichkeiten um mit PDFs zu arbeiten
+* Keine vor implementierte Möglichkeiten, um PDFs zu vergleichen
+* Closed Source
+
+[background-image="background.png",background-opacity="0.7", background-size="cover"]
 === ImageHash
+* kostenlos
+* Nur für das Arbeiten mit Bilddateien
+* Bietet nur die Möglichkeit eines Vergleiches von Bildern
+* Vergleich von Bildern mittels Hash Werten
+* Open Source
 
 == Neu erlernte Technologien
 * SOAP-Services
@@ -83,10 +102,11 @@ image::ablauf.png[]
 [background-image="background.png",background-opacity="0.7", background-size="cover"]
 [.columns]
 == Probleme
-* Pdf als Bildinhalt
+* PDF als Bildinhalt
 * Zusammenfügen von Konstrukten
-* Konvertierung von Pdf zu Tiff
+* Konvertierung von PDF zu Tiff
 * Qualität der Bildkonvertierung
+* Kommunikation mit dem Profiler
 
 == Danke für Ihre Aufmerksamkeit
 
