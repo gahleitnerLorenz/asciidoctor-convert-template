@@ -1,6 +1,92 @@
-= Some Slide
+= DocumentPatternAnalyser
 ifndef::imagesdir[:imagesdir: ../images]
+ifndef::sourcedir[:sourcedir: ../src/main/java]
+ifndef::imagesdir[:imagesdir: images]
+ifndef::backend[:backend: html5]
 
-image::img.png[]
+== Team
 
-Testing filter by changing documentation file
+* Gahleitner Lorenz
+* Hosic Tarik
+
+[transition="zoom-in slide-out"]
+[background-image="background.png",background-opacity="0.7", background-size="cover"]
+[.columns]
+== Auftraggeber
+
+[.column]
+* Kontron Technologies
+* Tochterunternehmen der S&T AG
+* Vier Standorte in Österreich
+* Entwicklung von Standardlösungen und Individualsoftware
+
+[.column]
+image::kontron.jpeg[]
+
+[transition="zoom-in slide-out"]
+[background-image="background.png",background-opacity="0.7", background-size="cover"]
+[.columns]
+== Ausgangslage
+
+* Dokumentenmanagementsystem: Profiler
+* Organisation der Dokumente anhand der Vorlagen erfolgt manuell
+
+
+
+[transition="zoom-in slide-out"]
+[background-image="background.png",background-opacity="0.7", background-size="cover"]
+[.columns]
+== Ziele
+* Zuweisen der Vorlagen and das Dokument soll automatisiert werden
+* Vergleich und eventuelle Findung einer anderen, besseren PDF-Library
+
+[transition="zoom-in slide-out"]
+[background-image="background.png",background-opacity="0.7", background-size="cover"]
+[.columns]
+== Ergebnis
+
+* ASP.NET Core Anwendung
+** Als Windows-Service im Hintergrund
+** Library für das Arbeiten mit PDFs und Bilddateien
+* Vergleich mit anderen Libraries für das Arbeiten mit PDFs und Bilddateien
+
+[transition="zoom-in slide-out"]
+[background-image="background.png",background-opacity="0.7", background-size="cover"]
+== Systemarchitektur & Ablauf
+
+=== Systemarchitektur
+
+image::archi.png[]
+
+=== Ablauf
+
+image::ablauf.png[]
+
+== Live-Demo
+
+[transition="zoom-in slide-out"]
+[background-image="background.png",background-opacity="0.7", background-size="cover"]
+[.columns]
+
+== Vergleich mit anderen Libraries
+
+=== IronPDF
+
+=== ImageHash
+
+== Neu erlernte Technologien
+* SOAP-Services
+* Arbeiten mit Firmentools
+* Arbeiten mit PDFs und Bilddateien und dessen Inhalten
+
+[transition="zoom-in slide-out"]
+[background-image="background.png",background-opacity="0.7", background-size="cover"]
+[.columns]
+== Probleme
+* Pdf als Bildinhalt
+* Zusammenfügen von Konstrukten
+* Konvertierung von Pdf zu Tiff
+* Qualität der Bildkonvertierung
+
+== Danke für Ihre Aufmerksamkeit
+
